@@ -1,0 +1,17 @@
+name: DynamiteRenewal
+version: '${project.version}'
+main: ch.ksrminecraft.dynamiterenewal.DynamiteRenewal
+api-version: '1.21'
+commands:
+  dynamite:
+    description: Hauptbefehl für DynamiteRenewal
+    usage: /<command>
+permissions:
+  dynamite.admin:
+    description: Erlaubt Zugang zu Admin-Befehlen von Dynamite
+    default: op
+  dynamite.mod:
+    description: Erlaubt Zugang zu Moderator-Befehlen von Dynamite
+    default: op
+depend:
+  - Multiverse-Core

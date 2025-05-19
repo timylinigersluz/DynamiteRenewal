@@ -1,0 +1,95 @@
+# Version: 1.0
+#-------------------------------- General Settings  -----------------------------------------
+# GM when entering a Dynamite-World (SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR)
+defaultGameMode: "CREATIVE"
+
+# Worlds from which the inventory does not need to be backed up
+exceptionWorlds:
+  - world
+
+#-------------------------------- Restore Interval -----------------------------------------
+# Time in seconds
+resetTime: 60
+firstWarningTime: 30
+secondWarningTime: 10
+fallbackServer: "world"
+
+#-------------------------------- Logging --------------------------------------------------
+log: true
+loggerPrefix: "[Dynamite-Debug]"
+
+#-------------------------------- Ressource Pack  -----------------------------------------
+# leave this empty to skip forcing a special ressource pack
+resourcePackUrl: "https://ksrminecraft.ch/resPack/f107e58a7ce069e2dfd0f61baca5c169b3a6fbc3.zip"
+resourcePackHash: "f107e58a7ce069e2dfd0f61baca5c169b3a6fbc3"
+alternateResourcePackUrl: "https://download.mc-packs.net/pack/f107e58a7ce069e2dfd0f61baca5c169b3a6fbc3.zip"
+alternateResourcePackHash: "f107e58a7ce069e2dfd0f61baca5c169b3a6fbc3"
+
+#-------------------------------- List of Dynamite-Worlds  --------------------------------
+dynamiteWorlds:
+  - lobby
+
+#-------------------------------- Starting-Items  -----------------------------------------
+startingItems:
+  tnt:
+    material: TNT
+    amount: 64
+  obsidian:
+    material: OBSIDIAN
+    amount: 64
+  end_crystal:
+    material: END_CRYSTAL
+    amount: 64
+  netherite_sword:
+    material: NETHERITE_SWORD
+    amount: 1
+  netherite_pickaxe:
+    material: NETHERITE_PICKAXE
+    amount: 1
+    enchantments:
+      - enchantment: "DIG_SPEED"
+        level: 5
+  netherite_shovel:
+    material: NETHERITE_SHOVEL
+    amount: 1
+    enchantments:
+      - enchantment: "DIG_SPEED"
+        level: 5
+  flame_bow:
+    material: BOW
+    amount: 1
+    enchantments:
+      - enchantment: "ARROW_FIRE"
+        level: 1
+      - enchantment: "ARROW_INFINITE"
+        level: 1
+  flint_and_steel:
+    material: FLINT_AND_STEEL
+    amount: 1
+  arrows:
+    material: ARROW
+    amount: 1
+  netherite_armor:
+    - material: NETHERITE_HELMET
+      amount: 1
+      enchantments:
+        - enchantment: "PROTECTION_ENVIRONMENTAL"
+          level: 4
+    - material: NETHERITE_CHESTPLATE
+      amount: 1
+      enchantments:
+        - enchantment: "PROTECTION_ENVIRONMENTAL"
+          level: 4
+    - material: NETHERITE_LEGGINGS
+      amount: 1
+      enchantments:
+        - enchantment: "PROTECTION_ENVIRONMENTAL"
+          level: 4
+    - material: NETHERITE_BOOTS
+      amount: 1
+      enchantments:
+        - enchantment: "PROTECTION_FALL"
+          level: 4
+
+#-------------------------------- Spawnpoints  -----------------------------------------
+spawnpoints:
