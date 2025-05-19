@@ -288,4 +288,3 @@ public class DynamiteCommand implements CommandExecutor {
         return true;
     }
 }
-
