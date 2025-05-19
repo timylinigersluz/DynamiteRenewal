@@ -1,0 +1,10 @@
+ch\ksrminecraft\dynamiterenewal\Utils\InventoryManager.class
+ch\ksrminecraft\dynamiterenewal\Utils\PlayerWorldChangeManager.class
+ch\ksrminecraft\dynamiterenewal\Listeners\PlayerWorldChangeListener.class
+ch\ksrminecraft\dynamiterenewal\Listeners\WorldResourcePackListener.class
+ch\ksrminecraft\dynamiterenewal\Commands\DynamiteCommandTabCompleter.class
+ch\ksrminecraft\dynamiterenewal\Utils\PlayerDataManager.class
+ch\ksrminecraft\dynamiterenewal\Commands\DynamiteCommand.class
+ch\ksrminecraft\dynamiterenewal\Utils\InventoryManager$1.class
+ch\ksrminecraft\dynamiterenewal\DynamiteRenewal.class
+ch\ksrminecraft\dynamiterenewal\Utils\WorldManager.class
